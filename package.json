@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mengmengzp/vuepress-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-export": "^0.2.0"
+  }
+}

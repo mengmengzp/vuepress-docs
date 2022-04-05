@@ -1,0 +1,112 @@
+body {
+    font-size: 14px;
+    h3,h4 {
+        font-weight: 500;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+}
+.sidebar {
+    overflow-x: hidden;
+    font-size: 14px;
+    .sidebar-heading {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .sidebar-group-items {
+        font-size: 14px;
+    }
+}
+.sidebar > .sidebar-links > li:not(:first-child) {
+    margin-top: 0!important;
+}
+
+.nav-links {
+    font-size: 14px;
+}
+.theme-default-content:not(.custom) {
+    margin: 0;
+    max-width: 1000px;
+}
+.page-nav {
+    margin: 0!important;
+    font-size: 14px;
+    max-width: 1000px!important;
+}
+.search-box {
+    margin-right: 1.5rem!important;
+}
+.sidebar .sidebar-heading {
+    position: relative;
+    &:first-child {
+        position: relative;
+        left: 12px;
+    }
+}
+.arrow.right, .arrow.down {
+    border: none;
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid #2e3c50;
+    border-left: 1px solid #2e3c50;
+    transform: rotate(135deg);
+}
+.arrow.down {
+    transform: rotate(-135deg);
+}
+.sidebar-heading .arrow {
+    position: absolute!important;
+    left: 0!important;
+    top: 1em!important;
+}
+
+.open {
+    .sidebar-group a.sidebar-link {
+        padding-left: 2.4em;
+    }
+}
+a.sidebar-link.active {
+    border-left-color: #fff!important;
+    font-weight: normal!important;
+}
+.sidebar .sidebar-heading {
+    position: relative!important;
+    left: 16px!important;
+}
+.sidebar-group-items {
+    position: relative;
+    left: 16px;
+}
+
+// 代码块2样式
+.theme-default-content pre code, .theme-default-content pre[class*="language-"] code {
+	color: #000
+}
+
+.language-.extra-class {
+Background:#f5f2f0
+}
+// 图片页面闪动优化
+.hero {
+    position: relative;
+    img {
+        width:40px;
+        position: absolute;
+        left: 48%;
+        top: -110px;
+    }
+}
+#main-title {
+    margin-top: 100px;
+}
